@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sweet Love</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <section class="PAGE1">
+    <video autoplay muted loop id="backgroundVideo">
+      <source src="vedio/Untitled video - Made with Clipchamp.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <!-- Container for image switching -->
+    <!-- Container for image switching -->
+    <div class="photo-container">
+      <div class="photo" id="photo1"><img src="image/IMG-20241031-WA0004.jpg" alt="Photo 1"></div>
+      <div class="photo" id="photo2"><img src="image/IMG-20241031-WA0009.jpg" alt="Photo 2"></div>
+      <div class="photo" id="photo3"><img src="image/IMG-20241105-WA0002.jpg" alt="Photo 3"></div>
+      <div class="photo" id="photo4"><img src="image/IMG-20241105-WA0003.jpg" alt="Photo 4"></div>
+      <div class="photo" id="photo5"><img src="image/IMG-20241105-WA0004.jpg" alt="Photo 5"></div>
+      <div class="photo" id="photo6"><img src="image/IMG-20241105-WA0005.jpg" alt="Photo 6"></div>
+      <div class="photo" id="photo7"><img src="image/IMG-20241105-WA0006.jpg" alt="Photo 7"></div>
+      <div class="photo" id="photo8"><img src="image/IMG-20241105-WA0007.jpg" alt="Photo 8"></div>
+      <div class="photo" id="photo9"><img src="image/IMG-20241105-WA0008.jpg" alt="Photo 9"></div>
+      <div class="photo" id="photo10"><img src="image/WhatsApp Image 2024-11-05 at 10.37.53_4357990b.jpg"
+          alt="Photo 10">
+      </div>
+
+      <!-- Switch Photo Button, connected with the photo container -->
+      <button id="switchButton" onclick="switchPhotos()">Switch Photo</button>
+    </div>
+
+    <!-- Text & Image Animation Section -->
+    <div class="final-section">
+      <div class="final-text" id="finalText">My Love, you're the light in my life.💖</div>
+      <div class="final-photo" id="finalPhoto"></div>
+    </div>
+
+  </section>
+
+  <!-- Audio player for background song -->
+  <audio id="backgroundAudio" autoplay loop>
+    <source id="audioSource"
+      src="music/Arijit Singh - Kasturi Song Whatsapp Status _ Black Screen Lyrics Status _ New Song 2024 _ Love Song [ ezmp3.cc ].mp3"
+      type="audio/mp3">
+    <source id="audioSource"
+      src="music/Dhokha Dhadi WhatsApp Status 😍 Love Song WhatsApp Status Video 😘 New Song WhatsApp Status Video [ ezmp3.cc ].mp3"
+      type="audio/mp3">
+    <source id="audioSource"
+      src="music/💞Tu Hai To Mujhe Phir Aur Kya Chahiye - Whatsapp Status✨ _ Arijit Singh _ Love Status [ ezmp3.cc ].mp3"
+      type="audio/mp3">
+    <source id="audioSource"
+      src="music/mere dil me jagah khuda ki khali thi lyrics status black screen 💯 [ ezmp3.cc ].mp3" type="audio/mp3">
+    <source id="audioSource"
+      src="music/Tera Chehra Song WhatsApp Status_Adnan Sami_Tu Ejazad De Ager_Letest WhatsApp Status Video 2020 [ ezmp3.cc ].mp3"
+      type="audio/mp3">
+    <source id="audioSource"
+      src="music/ye teri hasi par main mar hi na jau (status) @FukraInsaanand@triggeredinsaan [ ezmp3.cc ].mp3"
+      type="audio/mp3">
+    <source id="audioSource"
+      src="music/Tere Naino Mein Maine Nahi Sara Jaha🦋__Lofi ~ Reverd 💗__Love status 🌻__WhatsApp status 🥀 [ ezmp3.cc ].mp3"
+      type="audio/mp3">
+    <source id="audioSource" src="music/King - She Dont Give A Status _ Woh Rehti Sitaron Mein _ [ ezmp3.cc ].mp3"
+      type="audio/mp3">
+    <source id="audioSource" src="music/Tera nasha ft. bilz & kashif _ Whatsapp status [ ezmp3.cc ].mp3"
+      type="audio/mp3">
+    <source id="audioSource" src="music/__Thodi thodi katthai si uski aakhe__WhatsApp status [ ezmp3.cc ].mp3"
+      type="audio/mp3">
+    Your browser does not support the audio element.
+  </audio>
+
+  <div class="line"></div>
+  <section class="page2">
+    <div class="page2_container">
+
+      <div class="left">
+        <img class="img1" src="image/1.jpg" alt="">
+        <img class="img2" src="image/2.jpg" alt="">
+        <img class="img3" src="image/3.jpg" alt="">
+        <img class="img4" src="image/4.jpg" alt="">
+        <img class="img5" src="image/5.jpg" alt="">
+        <img class="img11" src="image/11.jpg" alt="">
+      </div>
+
+      <div class="right">
+        <img class="img6" src="image/6.jpg" alt="">
+        <img class="img7" src="image/7.jpg" alt="">
+        <img class="img8" src="image/8.jpg" alt="">
+        <img class="img9" src="image/9.jpg" alt="">
+        <img class="img10" src="image/10.jpg" alt="">
+        <img class="img12" src="image/12.jpg" alt="">
+      </div>
+    </div>
+    </div>
+  </section>
+  <div class="line"></div>
+
+  <section class="page3">
+    <div class="last_container">
+      <div class="photo1">
+        <img id="image13" src="image/13.jpg" alt="">
+        <img id="image14" src="image/14.jpg" alt="">
+        <!-- <h2>You're the sunshine ☀️ in my cloudy days ☁️, the melody 🎶 in my heart ❤️</h2> -->
+      </div>
+      <div class="name">✨🐰💖I Love You Hetvi Ji💖🐰✨</div>
+      <div class="photo2">
+        <img src="image/16 (1).jpg" alt="">
+        <img src="image/16 (2).jpg" alt="">
+      </div>
+    </div>
+  </section>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+    integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+    integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
